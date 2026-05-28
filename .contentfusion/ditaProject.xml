@@ -3,4 +3,13 @@
     <context id="qPrHVTuzNLQReTf" name="pub">
         <input href="../map.ditamap"/>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="d-asdas-1779952361559" name="asdas">
+        <context idref="qPrHVTuzNLQReTf"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
